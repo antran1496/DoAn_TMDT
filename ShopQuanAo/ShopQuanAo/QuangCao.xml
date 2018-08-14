@@ -1,0 +1,19 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>images\qc_01.jpg</ImageUrl>
+    <NavigateUrl>https://twitter.com/BTS_twt</NavigateUrl>
+    <AlternateText>BTS_twt</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Topic1</Keyword>
+    <Caption>Topic 1</Caption>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>images\qc_02.jpg</ImageUrl>
+    <NavigateUrl>http://dantri.com.vn</NavigateUrl>
+    <AlternateText>Báo dân trí</AlternateText>
+    <Impressions>80</Impressions>
+    <Keyword>Topic2</Keyword>
+    <Caption>Topic 2</Caption>
+  </Ad>
+</Advertisements>
