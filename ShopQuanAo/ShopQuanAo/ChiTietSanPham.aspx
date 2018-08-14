@@ -29,7 +29,15 @@
                 <asp:Label ID="lblTinhTrang" runat="server" Text="Tình trạng :" ForeColor="#663300" Height="30px"  Font-Bold="True"></asp:Label>
                 <br />
                 <asp:ImageButton ID="ibtnMua" runat="server" ImageUrl="~/images/cart.png" />
-            </div>
+                <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-share-button" data-href="https://online.hcmue.edu.vn/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fonline.hcmue.edu.vn%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Chia sẻ</a></div>                </div>
             
         </div>
         <div style="clear:both">
